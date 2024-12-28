@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: wheat;
+    color: black;
+}
+
+h1,h2,h3{
+    margin: 10px 0;
+    text-align: center;
+}
+/* navbar */
+nav{
+    background-color: aquamarine;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+ nav a:hover{
+    text-decoration: underline;
+ }
+
+ button{
+    background-color: blueviolet;
+    color: black;
+    border: 5px;
+    border-color: white;
+    cursor: pointer;
+    padding: auto;
+    border-radius: 5px;
+ }
+
+.container{
+    max-width: 80px;
+    margin: 20px auto;
+    background: peachpuff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button:disabled{
+    background-color: aliceblue;
+    cursor: not-allowed;
+}
+form{
+    display: flex;
+    flex-direction:  column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.grid-container{
+    display: grid;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: beige;
+    text-align: center;
+}
+
+.alert {
+    padding: 10px;
+    margin: auto;
+    background-color: gray;
+    color: white;
+}
