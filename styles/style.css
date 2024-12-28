@@ -14,10 +14,12 @@ nav{
     background-color: aquamarine;
     text-decoration: none;
     margin: 0 15px;
+    padding: 10px 20px;
     font-weight: bold;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+
  nav a:hover{
     text-decoration: underline;
  }
