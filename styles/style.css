@@ -12,6 +12,7 @@ h1,h2,h3{
 }
 /* navbar */
 nav{
+    display: flex;
     background-color: aquamarine;
     text-decoration: none;
     margin: 0 15px;
@@ -37,7 +38,6 @@ nav{
     max-width: 80px;
     margin: 20px auto;
     background: peachpuff;
-    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
@@ -54,7 +54,6 @@ form{
 
 .grid-container{
     display: grid;
-    border: 1px solid #ddd;
     border-radius: 5px;
     background-color: beige;
     text-align: center;
